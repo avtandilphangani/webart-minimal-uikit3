@@ -2,7 +2,7 @@
 
 return [
 
-    'name' => 'uikit3-theme-minimal',
+    'name' => 'webart-minimal-uikit3',
 
     'type' => 'theme',
 

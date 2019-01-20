@@ -10,7 +10,8 @@
 @tab-border:                                    @global-border;
 @tab-padding-horizontal:                        15px;
 @tab-padding-vertical:                          12px;
-@tab-margin-horizontal:                         15px;
+// @tab-margin-horizontal:                         15px;
+@tab-padding-bottom 15px;
 @tab-color:                                     @global-muted-color;
 @tab-hover-border:                               #000;
 @tab-hover-background:                          transparent;
@@ -89,7 +90,7 @@
     .uk-tab > li:not(.uk-active) > a:focus,
     .uk-tab > li.uk-open:not(.uk-active) > a {
         margin-bottom: 0;
-        padding-bottom: @tab-padding-bottom;
+        padding-bottom: 15px; //todo @tab-padding-bottom;
 }
 
 
